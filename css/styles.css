@@ -1,0 +1,67 @@
+body {
+    position: relative;
+  z-index: 1;
+  min-width: 200px;
+  min-height: 200px;
+  padding: 120px 200px 50px;
+  background: lightgrey url("https://cdn.pixabay.com/photo/2017/06/05/22/20/png-2375510_960_720.png") -10% 0 repeat-x;
+}
+#body:before, body:after{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 100px;
+}
+h1, h2, h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: brown
+}
+nav {
+    display: flex;
+    background-color: lightgrey;
+    width: 100%;
+    justify-content: space-around;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif
+}
+nav a:hover{
+    color: silver
+}
+nav a{
+    margin: 2em 1em 0px 1em;
+    color:  rgb(85, 24, 87)
+}
+.hero{
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    background-color: lightgray
+}
+main{
+    flex: 2;
+    margin: 1em;
+}
+aside{
+    flex: 1;
+    margin: 2em;
+}
+footer a{
+
+color: brown;
+text-align: center
+}
+nav a{
+    margin: 2em, 1em, 0px, 1em
+}
+html{
+    box-sizing: border-box
+}
